@@ -1,0 +1,170 @@
+﻿@charset "utf-8";
+
+/* Formatação do corpo da página */
+body {
+	background-image: url(imagens/visa.jfif);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: right;
+	font-family: verdana;
+	margin: 0px;
+}
+
+.icone-topo {
+	font-size: 30px;
+}
+
+.texto-topo {
+	font-size: 80px;
+	font-family: Kunstler Script;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px #666666;
+	margin-top: 15px;
+}
+
+.teste-header {
+	background-color: #efe4ce;
+}
+
+.centralizar-texto {
+	font-family: verdana;
+	text-align: justify;
+}
+
+a {
+	color: #999999;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: verdana;
+}
+
+.fonte-zero {
+	font-size: 0px;
+}
+.fundo-menu {
+	background-color: #8b4513;
+margin-top: -8px;
+}
+.section-teste {
+    background-color: #efe4ce;
+    margin: -28px 15px 0px 15px;
+  
+}
+
+.footer-teste {
+	background-color: #8b4513;
+	font-size: 12px;
+}
+
+.centralizar-img {
+	text-align: center;
+}
+
+
+/* Formatção dos links footer */
+footer a {
+	text-decoration: none;
+	color: #FF0000;
+	padding: 8px;
+}
+footer a:hover {
+	text-decoration: underline;
+	color: #00FF00;
+}
+
+.video_resp {
+	width: 100%;
+	
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+	h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+.texto-topo {
+	font-size: 60px;
+	text-align: left;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px #666666;
+}
+.icone-topo {
+	font-size: 25px;
+}
+	.video_resp {
+	width: 100%;
+	
+}
+
+	}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+	
+	h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+.texto-topo {
+	font-size: 60px;
+	text-align: left;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px #666666;
+}
+.icone-topo {
+	font-size: 25px;
+}
+	.video_resp {
+	width: 100%;
+	
+}
+
+}
+@media all and (min-width: 576px) and (max-width:767px) {
+	
+	h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+.texto-topo {
+	font-size: 50px;
+	text-align: left;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px #666666;
+}
+.icone-topo {
+	font-size: 25px;
+}
+	.video_resp {
+	width: 100%;
+	
+}
+
+}
+@media all and (max-width: 575px) {
+	
+	h1 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.texto-topo {
+		font-size: 30px;
+		text-align: left;
+		font-weight: bold;
+		text-shadow: 3px 3px 5px #666666;
+	}
+	.icone-topo {
+		font-size: 25px;
+	}
+	.video_resp {
+	width: 100%;
+	
+}
+
+}
